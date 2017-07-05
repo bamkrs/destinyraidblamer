@@ -1,0 +1,20 @@
+=== a0.9 ===
+* Compare two players of a raid! Just hit one "Compare With"-Button on the bottom of a player statistic. Check it out! (Will be expanded with functionalities over time!)
+* Implemented a hidden dark theme for the raid-/blameview: Just add ?dark at the end of the URL!
+* Cleaned the code a bit.
+
+=== a0.8.4 ===
+* Hardened the Code. XSS, invalid Guardiannames and Raid-ID's will (for) now result in a execution halt.
+* Fixed a bug when a player was in one raid with multiple characters it was only possible to check one of his characters. (With the drawback of an ugly URL for 2Charactes1Player)
+* When hovering the raid-panels in the raid overview the pointer will now change to a hand. (Thanks FRETER_PAN for this hint!) 
+
+=== a0.8.3 ===
+* Fixed King's Fall hard mode wasn't displayed as hard mode
+* Fixed errors that appeared in player view with no kills
+
+=== a0.8.2 ===
+* First release with tracked changes ;)
+* Changed the black shadow to yellow/gold for hard mode raids
+* Added an About-Page
+* Open Alpha Release
+* Reserved domain: destinyraidblamer.com 

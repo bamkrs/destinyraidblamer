@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /psn
+Disallow: /xbl
+Disallow: /blame
+Disallow: /ajax
+Disallow: /css
+Disallow: /icon
+Disallow: /js
+Disallow: /bootstrap

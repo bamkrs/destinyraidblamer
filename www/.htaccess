@@ -1,0 +1,8 @@
+Options -Indexes
+RewriteEngine On
+RewriteRule ^about[/]*$ about.php
+RewriteRule ^blame/([^/]*)$ blame.php?raid=$1 [QSA]
+#RewriteRule ^blame/([A-Za-z0-9_\-\.]*)([\?]?[0-9]*)/([^/]*)[/]*$ blame.php?raid=$1&guardian=$3&entry=$2 [QSA]
+RewriteRule ^blame/([^/]*)/([^/]*)[/]*$ blame.php?raid=$1&guardian=$2 [QSA]
+RewriteRule ^blame/([^/]*)/([^/]*)/compare/([^/]*)$ blame.php?raid=$1&guardian=$2&compare=$3 [QSA]
+RewriteRule ^(psn|xbl)/([^/]*)$ index.php?platform=$1&guardian=$2 [L,QSA]
